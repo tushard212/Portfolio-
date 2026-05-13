@@ -1,0 +1,189 @@
+﻿{
+  "stats": {
+    "name": "Tushar Dalmia",
+    "age": 23,
+    "occupation": "SDE at Digit Insurance",
+    "status": "Learning stuffs.....",
+    "leetcodeLink": "https://leetcode.com/u/tushar_dalmia/",
+    "hobby": [
+      "Watching Anime",
+      "Drawing",
+      "Reading Manga",
+      "Fitness"
+    ],
+    "skills": [
+      "Web dev(React/Typescript)",
+      "FULL STACK development",
+      "Flask",
+      "JAVA",
+      "Python/C++"
+    ],
+    "toolsUsed": [
+      "Kali linux",
+      "VSCode",
+      "Ibis paint",
+      "Figma",
+      "VMWare"
+    ]
+  },
+
+  "experience": {
+    "positionList": []
+  },
+
+  "achievements": {
+    "awards": [
+      {
+        "achievementRoute": "GDSC",
+        "issueDate": "YYYY",
+        "title": "Leaf Disease Detection",
+        "issuedBy": "Google Developer Student Clubs",
+        "descripList": [
+          "Built a leaf disease detection project as part of GDSC, using machine learning to identify plant diseases from leaf images."
+        ]
+      },
+      {
+        "achievementRoute": "ABACUS",
+        "issueDate": "YYYY",
+        "title": "Abacus — Large-Scale Data Preprocessing",
+        "issuedBy": "Abacus",
+        "descripList": [
+          "Engineered a high-throughput data preprocessing pipeline handling massive, messy datasets — cleaning, normalizing, and transforming raw inputs into analysis-ready features at scale.",
+          "Optimized for speed and reliability, turning hours of manual wrangling into a streamlined, reproducible workflow."
+        ]
+      },
+      {
+        "achievementRoute": "cloud",
+        "issueDate": "2022",
+        "title": "Cloud",
+        "issuedBy": "google",
+        "descripList": [
+          "Google cloud path completeion"
+        ]
+      },
+      {
+        "achievementRoute": "LeetCode",
+        "issueDate": "2025",
+        "title": "LeetCode Knight",
+        "issuedBy": "LeetCode",
+        "descripList": [
+          "Earned the prestigious Knight badge by ranking in the top 5% of LeetCode contest participants worldwide.",
+          "Consistent performance across weekly and biweekly contests, solving complex algorithmic problems under time pressure."
+        ]
+      },
+      {
+        "achievementRoute": "Codeforces",
+        "issueDate": "2025",
+        "title": "Codeforces Competitive Programmer",
+        "issuedBy": "Codeforces",
+        "descripList": [
+          "Active competitive programmer on Codeforces, regularly participating in rated rounds.",
+          "Sharpened algorithmic thinking and problem-solving speed through consistent contest participation."
+        ]
+      },
+      {
+        "achievementRoute": "CodeChef",
+        "issueDate": "2025",
+        "title": "CodeChef 3-Star (Max Rating 1736)",
+        "issuedBy": "CodeChef",
+        "descripList": [
+          "Achieved a 3-star rating on CodeChef with a peak rating of 1736 (Div 2).",
+          "Consistent participation in Long Challenges, Cook-Offs, and Dinnertime contests."
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "projectRoute": "Amazon",
+      "imageUrlList": [
+        "Amazon"
+      ],
+      "projectTitle": "Amazon Clone",
+      "projectPeriod": "",
+      "tags": [
+        "Web dev",
+        "Frontend"
+      ],
+      "builtWith": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "projectLink": "https://github.com/tushard212/javaScript/tree/main/Amazon",
+      "descripList": [
+        "A front-end clone of the Amazon shopping website built with vanilla HTML, CSS, and JavaScript."
+      ]
+    },
+    {
+      "projectRoute": "PotatoDisease",
+      "imageUrlList": [
+        "PotatoDisease"
+      ],
+      "projectTitle": "Potato Disease Detection",
+      "projectPeriod": "",
+      "tags": [
+        "Machine Learning",
+        "Computer Vision"
+      ],
+      "builtWith": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "CNN"
+      ],
+      "projectLink": "https://github.com/tushard212/potato-desease-",
+      "descripList": [
+        "A deep learning model that detects diseases in potato plants from leaf images using a Convolutional Neural Network."
+      ]
+    },
+    {
+      "projectRoute": "HospitalManagement",
+      "imageUrlList": [
+        "HospitalManagement"
+      ],
+      "projectTitle": "Hospital Management System",
+      "projectPeriod": "",
+      "tags": [
+        "Web dev",
+        "Full stack"
+      ],
+      "builtWith": [
+        "Java",
+        "Spring Boot",
+        "Spring Data JPA"
+      ],
+      "projectLink": "https://github.com/tushard212/Hospital-Management-System/tree/master",
+      "descripList": [
+        "A hospital management system to manage patients, doctors, appointments, and hospital records efficiently."
+      ]
+    },
+    {
+      "projectRoute": "Weather",
+      "imageUrlList": [
+        "Weather1"
+      ],
+      "projectTitle": "Weather",
+      "projectPeriod": "2022",
+      "tags": [
+        "API",
+        "Web dev"
+      ],
+      "builtWith": [
+       "HTML",
+       "CSS",
+       "Javascript"
+      ],
+      "projectLink": "https://weatherapp-f8fsdli7m-arihant1009.vercel.app/",
+      "descripList": [
+        "An website that uses the openWeather api to fetch data about the current climate changes and display it on the website."
+      ]
+    }
+  ],
+  "contact": {
+    "email": "tushardalmia1408@gmail.com",
+    "linkedinLink": "https://www.linkedin.com/in/tushar-dalmia-1571b524b/",
+    "githubLink": "https://github.com/tushard212/"
+
+  }
+}
