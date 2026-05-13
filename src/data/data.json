@@ -95,6 +95,31 @@
   },
   "projects": [
     {
+      "projectRoute": "LungNodule",
+      "imageUrlList": [
+        "lungNodule"
+      ],
+      "projectTitle": "Lung Nodule Detection",
+      "projectPeriod": "",
+      "tags": [
+        "Deep Learning",
+        "Medical Imaging",
+        "Segmentation"
+      ],
+      "builtWith": [
+        "Python",
+        "PyTorch",
+        "U-Net",
+        "Gradio",
+        "Hugging Face"
+      ],
+      "projectLink": "https://huggingface.co/spaces/Tushar010/Lung-nodule-detection",
+      "descripList": [
+        "A deep learning model that detects and segments lung nodules from CT scan images using a U-Net based architecture.",
+        "Deployed as an interactive web app on Hugging Face Spaces — upload a CT scan and visualize ground truth vs. predicted segmentation masks side by side."
+      ]
+    },
+    {
       "projectRoute": "PotatoDisease",
       "imageUrlList": [
         "PotatoDisease"
