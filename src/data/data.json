@@ -95,27 +95,6 @@
   },
   "projects": [
     {
-      "projectRoute": "Amazon",
-      "imageUrlList": [
-        "Amazon"
-      ],
-      "projectTitle": "Amazon Clone",
-      "projectPeriod": "",
-      "tags": [
-        "Web dev",
-        "Frontend"
-      ],
-      "builtWith": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "projectLink": "https://github.com/tushard212/javaScript/tree/main/Amazon",
-      "descripList": [
-        "A front-end clone of the Amazon shopping website built with vanilla HTML, CSS, and JavaScript."
-      ]
-    },
-    {
       "projectRoute": "PotatoDisease",
       "imageUrlList": [
         "PotatoDisease"
@@ -138,6 +117,27 @@
       "descripList": [
         "A deep learning model that detects diseases in potato plants from leaf images using a Convolutional Neural Network.",
         "Deployed as an interactive Streamlit web app — upload a leaf image and get instant disease predictions."
+      ]
+    },
+    {
+      "projectRoute": "Amazon",
+      "imageUrlList": [
+        "Amazon"
+      ],
+      "projectTitle": "Amazon Clone",
+      "projectPeriod": "",
+      "tags": [
+        "Web dev",
+        "Frontend"
+      ],
+      "builtWith": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "projectLink": "https://github.com/tushard212/javaScript/tree/main/Amazon",
+      "descripList": [
+        "A front-end clone of the Amazon shopping website built with vanilla HTML, CSS, and JavaScript."
       ]
     },
     {
