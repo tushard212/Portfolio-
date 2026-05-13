@@ -18,7 +18,7 @@
 }
 
 .ground-tile{
-    background-image: url(/public/assets/cyber_ground.png);
+    background-image: url(/assets/cyber_ground.png);
     background-repeat: repeat-x;
     /* position: absolute;
     bottom: 0; */

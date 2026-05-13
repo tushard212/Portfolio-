@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-/static/css/main.509b95ff.css",
-    "main.js": "/Portfolio-/static/js/main.c0103f52.js",
-    "static/media/char_run.png": "/Portfolio-/static/media/char_run.45f7656ebcb4b6e4f5c9.png",
-    "static/media/char_idle.png": "/Portfolio-/static/media/char_idle.79653fc020dbf95bc618.png",
-    "static/media/RetroGaming.ttf": "/Portfolio-/static/media/RetroGaming.c1a52a602585b2d6baf8.ttf",
-    "index.html": "/Portfolio-/index.html",
-    "main.509b95ff.css.map": "/Portfolio-/static/css/main.509b95ff.css.map",
-    "main.c0103f52.js.map": "/Portfolio-/static/js/main.c0103f52.js.map"
+    "main.css": "./static/css/main.eafeab4d.css",
+    "main.js": "./static/js/main.b7fc81b4.js",
+    "static/media/char_run.png": "./static/media/char_run.45f7656ebcb4b6e4f5c9.png",
+    "static/media/char_idle.png": "./static/media/char_idle.79653fc020dbf95bc618.png",
+    "static/media/RetroGaming.ttf": "./static/media/RetroGaming.c1a52a602585b2d6baf8.ttf",
+    "static/media/menu_1.png": "./static/media/menu_1.127370b058466918ad14.png",
+    "static/media/menu_1_mobile.png": "./static/media/menu_1_mobile.9040ded78c4eb6587e1a.png",
+    "index.html": "./index.html",
+    "main.eafeab4d.css.map": "./static/css/main.eafeab4d.css.map",
+    "main.b7fc81b4.js.map": "./static/js/main.b7fc81b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.509b95ff.css",
-    "static/js/main.c0103f52.js"
+    "static/css/main.eafeab4d.css",
+    "static/js/main.b7fc81b4.js"
   ]
 }

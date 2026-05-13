@@ -40,10 +40,10 @@ key = {`achievements-modal-${route}`}
 layoutId = {`achievement-image-${route}`}
                                 >
     <img
-                                        src={ `/assets/achievements/${achievementRoute}.jpg` }
+                                        src={ `${process.env.PUBLIC_URL}/assets/achievements/${achievementRoute}.jpg` }
 onError = {(e: any) => {
     e.target.onerror = null;
-    e.target.src = "/assets/default.jpg";
+    e.target.src = `${process.env.PUBLIC_URL}/assets/default.jpg`;
 }}
 className = "selected-img"
 alt = { title }

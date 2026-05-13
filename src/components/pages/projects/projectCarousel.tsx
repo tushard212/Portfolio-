@@ -170,10 +170,10 @@ padding = { 0}
         layoutId = {`project-image-${item.projectRoute}`
     }>
     <motion.img
-                                                            src={`/assets/projects/${item.imageUrlList[0]}.jpg`}
+                                                            src={`${process.env.PUBLIC_URL}/assets/projects/${item.imageUrlList[0]}.jpg`}
 onError = {(e: any) => {
     e.target.onerror = null;
-    e.target.src = "/assets/default.jpg";
+    e.target.src = `${process.env.PUBLIC_URL}/assets/default.jpg`;
 }}
 layoutId = { item.imageUrlList[0] }
 key = { item.imageUrlList[0] }

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import '../../css/homepanel.css';
 import '../../css/misc.css';
 import { motion } from 'framer-motion';
+import menu1 from '../../assets/menu_1.png';
+import menu1Mobile from '../../assets/menu_1_mobile.png';
 
 interface IPanel {
     title: string,
@@ -16,7 +18,7 @@ const Panel: React.FC<IPanel> = ({
     title, descrip, remark, btnString
 }) => {
 
-    const [menuBoard, setMenuBoard] = useState<string>("/assets/menu_2.png");
+    const [menuBoard, setMenuBoard] = useState<string>(menu1);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     const fadeIn = {
@@ -43,9 +45,9 @@ const Panel: React.FC<IPanel> = ({
 
     useEffect(() => {
         if (window.innerWidth < 500) {
-            setMenuBoard("/assets/menu_1_mobile.png");
+            setMenuBoard(menu1Mobile);
         } else {
-            setMenuBoard("/assets/menu_1.png");
+            setMenuBoard(menu1);
         }
     }, [windowWidth])
 

@@ -1,13 +1,13 @@
 @keyframes animate-idle{
     from{
         background-position-x: 0px;
-        background-image: url(/public/assets/char_idle.png);
+        background-image: url(../assets/char_idle.png);
         animation-timing-function: steps(1);
         width: 109px;
     }
     to{
         background-position-x: -865px;
-        background-image: url(/public/assets/char_idle.png);
+        background-image: url(../assets/char_idle.png);
         animation-timing-function: steps(1);
         width: 109px
     }
@@ -17,12 +17,12 @@
 @keyframes animate-running{
     from{
         background-position-x: 0px;
-        background-image: url(/public/assets/char_run.png);
+        background-image: url(../assets/char_run.png);
         animation-timing-function: steps(4);
         width: 145px;
     }to{
         background-position-x: -522px;
-        background-image: url(/public/assets/char_run.png);
+        background-image: url(../assets/char_run.png);
         animation-timing-function: steps(4);
         width: 145px;
     }
@@ -61,12 +61,12 @@
     @keyframes animate-running{
         from{
             background-position-x: 0px;
-            background-image: url(/public/assets/char_run.png);
+            background-image: url(../assets/char_run.png);
             animation-timing-function: steps(4);
             width: 80px;
         }to{
             background-position-x: -312px;
-            background-image: url(/public/assets/char_run.png);
+            background-image: url(../assets/char_run.png);
             animation-timing-function: steps(4);
             width: 80px;
         }
@@ -75,13 +75,13 @@
     @keyframes animate-idle{
         from{
             background-position-x: 0px;
-            background-image: url(/public/assets/char_idle.png);
+            background-image: url(../assets/char_idle.png);
             animation-timing-function: steps(1);
             width: 64px;
         }
         to{
             background-position-x: -510px;
-            background-image: url(/public/assets/char_idle.png);
+            background-image: url(../assets/char_idle.png);
             animation-timing-function: steps(1);
             width: 64px
         }
@@ -107,12 +107,12 @@
     @keyframes animate-running{
         from{
             background-position-x: 0px;
-            background-image: url(/public/assets/char_run.png);
+            background-image: url(../assets/char_run.png);
             animation-timing-function: steps(4);
             width: 177px;
         }to{
             background-position-x: -702px;
-            background-image: url(/public/assets/char_run.png);
+            background-image: url(../assets/char_run.png);
             animation-timing-function: steps(4);
             width: 177px;
         }
@@ -121,13 +121,13 @@
     @keyframes animate-idle{
         from{
             background-position-x: 0px;
-            background-image: url(/public/assets/char_idle.png);
+            background-image: url(../assets/char_idle.png);
             animation-timing-function: steps(1);
             width: 144px;
         }
         to{
             background-position-x: -1152px;
-            background-image: url(/public/assets/char_idle.png);
+            background-image: url(../assets/char_idle.png);
             animation-timing-function: steps(2);
             width: 144px
         }
@@ -144,12 +144,12 @@
     @keyframes animate-running{
         from{
             background-position-x: 0px;
-            background-image: url(/public/assets/char_run.png);
+            background-image: url(../assets/char_run.png);
             animation-timing-function: steps(4);
             width: 176px;
         }to{
             background-position-x: -876px;
-            background-image: url(/public/assets/char_run.png);
+            background-image: url(../assets/char_run.png);
             animation-timing-function: steps(4);
             width: 176px;
         }
@@ -158,13 +158,13 @@
     @keyframes animate-idle{
         from{
             background-position-x: 0px;
-            background-image: url(/public/assets/char_idle.png);
+            background-image: url(../assets/char_idle.png);
             animation-timing-function: steps(1);
             width: 180px;
         }
         to{
             background-position-x: -1440px;
-            background-image: url(/public/assets/char_idle.png);
+            background-image: url(../assets/char_idle.png);
             animation-timing-function: steps(2);
             width: 180px
         }
@@ -182,12 +182,12 @@
     @keyframes animate-running{
         from{
             background-position-x: 0px;
-            background-image: url(/public/assets/char_run.png);
+            background-image: url(../assets/char_run.png);
             animation-timing-function: steps(4);
             width: 400px;
         }to{
             background-position-x: -1404px;
-            background-image: url(/public/assets/char_run.png);
+            background-image: url(../assets/char_run.png);
             animation-timing-function: steps(4);
             width: 400px;
         }
@@ -196,13 +196,13 @@
     @keyframes animate-idle{
         from{
             background-position-x: 0px;
-            background-image: url(/public/assets/char_idle.png);
+            background-image: url(../assets/char_idle.png);
             animation-timing-function: steps(1);
             width: 288px;
         }
         to{
             background-position-x: -2304px;
-            background-image: url(/public/assets/char_idle.png);
+            background-image: url(../assets/char_idle.png);
             animation-timing-function: steps(2);
             width: 288px
         }

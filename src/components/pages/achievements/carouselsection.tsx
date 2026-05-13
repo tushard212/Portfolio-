@@ -172,10 +172,10 @@ padding = { 0}
     }
                                                         >
         <img
-                                                                src={`/assets/achievements/${item.achievementRoute}.jpg`}
+                                                                src={`${process.env.PUBLIC_URL}/assets/achievements/${item.achievementRoute}.jpg`}
 onError = {(e: any) => {
     e.target.onerror = null;
-    e.target.src = "/assets/default.jpg";
+    e.target.src = `${process.env.PUBLIC_URL}/assets/default.jpg`;
 }}
 alt = { item.title }
     />

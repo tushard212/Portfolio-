@@ -19,23 +19,23 @@ function Ground() {
 
     const spawnGroundTile = (start: number) => {
         if(!moving){
-            let spawnedGroundTile = <div 
-            className="ground position-fixed" 
+            let spawnedGroundTile = <div
+            className="ground position-fixed"
             style = {{
                 animationPlayState: "paused",
                 right: `${start}vw`,
-                backgroundImage: `url("/assets/${envBg}_ground.png")`
+                backgroundImage: `url("${process.env.PUBLIC_URL}/assets/${envBg}_ground.png")`
             }}
             ></div>
 
             return spawnedGroundTile;
         }else{
-            let spawnedGroundTile = <div 
-                className="ground position-fixed" 
+            let spawnedGroundTile = <div
+                className="ground position-fixed"
                 style = {{
                     right: `${start}vw`,
                     animationPlayState: "running",
-                    backgroundImage: `url("/assets/${envBg}_ground.png")`
+                    backgroundImage: `url("${process.env.PUBLIC_URL}/assets/${envBg}_ground.png")`
                 }}
             ></div>
 
@@ -44,7 +44,7 @@ function Ground() {
     }
 
     const spawnGround = () => {
-        let _ground: JSX.Element[] = [];  
+        let _ground: JSX.Element[] = [];
         _ground.push(spawnGroundTile(0));
         _ground.push(spawnGroundTile(-100));
         setGround(_ground);

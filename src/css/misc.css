@@ -12,7 +12,7 @@ a, a:hover, a:active, a:visited, a:focus {
 /* for fonts */
 @font-face{
     font-family: khyay;
-    src: url("/public/font/RetroGaming.ttf");
+    src: url("../assets/RetroGaming.ttf");
 }
 .khyay{
     font-family: khyay;
@@ -75,7 +75,7 @@ a, a:hover, a:active, a:visited, a:focus {
     filter: invert(45%) sepia(73%) saturate(4113%) hue-rotate(1deg) brightness(102%) contrast(107%);
 }
 .back-world-icon{
-    background-image: url('/public/assets/back_white.png');
+    background-image: url('../assets/back_white.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 3vw;
@@ -101,7 +101,7 @@ h1{
 
 /* list styles */
 ul{
-    font-size: 0; 
+    font-size: 0;
     margin: 0;
     padding: 0 1vw;
  }

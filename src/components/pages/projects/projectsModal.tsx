@@ -140,7 +140,7 @@ onError = {(e: any) => {
     // eslint-disable-next-line no-template-curly-in-string
     e.target.src = "/assets/${selectedImage}.jpg";
 }}
-src = {`/assets/projects/${selectedImage}.jpg`}
+src = {`${process.env.PUBLIC_URL}/assets/projects/${selectedImage}.jpg`}
 alt = { projectTitle }
     />
     </AnimatePresence>
@@ -170,7 +170,7 @@ padding = { 0}
                 }
             }
                                                                 >
-                <img src={`/assets/projects/${src}.jpg`}
+                <img src={`${process.env.PUBLIC_URL}/assets/projects/${src}.jpg`}
         style = {{
             backgroundSize: "cover"
         }
@@ -178,7 +178,7 @@ padding = { 0}
                                                                         className = ""
                                                                         onError = {(e: any) => {
         e.target.onerror = null;
-        e.target.src = "/assets/default.jpg";
+        e.target.src = `${process.env.PUBLIC_URL}/assets/default.jpg`;
     }}
 key = {`projcarousel-${src}`}
 alt = ""
