@@ -173,17 +173,24 @@
       "projectTitle": "Hospital Management System",
       "projectPeriod": "",
       "tags": [
-        "Web dev",
-        "Full stack"
+        "Backend",
+        "REST APIs",
+        "Spring Boot"
       ],
       "builtWith": [
         "Java",
         "Spring Boot",
-        "Spring Data JPA"
+        "Spring Security",
+        "Spring Data JPA",
+        "PostgreSQL",
+        "H2",
+        "Docker"
       ],
-      "projectLink": "https://github.com/tushard212/Hospital-Management-System/tree/master",
+      "projectLink": "https://hospital-management-2o9w.onrender.com/swagger-ui.html",
       "descripList": [
-        "A hospital management system to manage patients, doctors, appointments, and hospital records efficiently."
+        "A multi-role Spring Boot backend (Patient, Doctor, Lab Technician, Admin) with 40+ REST APIs, Role-Based Access Control via Spring Security, and a 3-layered architecture.",
+        "Deployed live on Render with an interactive Swagger UI demo (no setup needed). Use credentials tushar / 1234 to try out the secured endpoints.",
+        "Note: free tier sleeps after 15 min idle — first request may take ~30s to wake up."
       ]
     },
     {
