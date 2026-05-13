@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio-/static/css/main.509b95ff.css",
+    "main.js": "/Portfolio-/static/js/main.c0103f52.js",
+    "static/media/char_run.png": "/Portfolio-/static/media/char_run.45f7656ebcb4b6e4f5c9.png",
+    "static/media/char_idle.png": "/Portfolio-/static/media/char_idle.79653fc020dbf95bc618.png",
+    "static/media/RetroGaming.ttf": "/Portfolio-/static/media/RetroGaming.c1a52a602585b2d6baf8.ttf",
+    "index.html": "/Portfolio-/index.html",
+    "main.509b95ff.css.map": "/Portfolio-/static/css/main.509b95ff.css.map",
+    "main.c0103f52.js.map": "/Portfolio-/static/js/main.c0103f52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.509b95ff.css",
+    "static/js/main.c0103f52.js"
+  ]
+}
