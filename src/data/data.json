@@ -124,17 +124,20 @@
       "projectPeriod": "",
       "tags": [
         "Machine Learning",
-        "Computer Vision"
+        "Computer Vision",
+        "Streamlit"
       ],
       "builtWith": [
         "Python",
         "TensorFlow",
         "Keras",
-        "CNN"
+        "CNN",
+        "Streamlit"
       ],
-      "projectLink": "https://github.com/tushard212/potato-desease-",
+      "projectLink": "https://plant-disease-detector-akqekcdo43zmk9ggkzdtj7.streamlit.app/",
       "descripList": [
-        "A deep learning model that detects diseases in potato plants from leaf images using a Convolutional Neural Network."
+        "A deep learning model that detects diseases in potato plants from leaf images using a Convolutional Neural Network.",
+        "Deployed as an interactive Streamlit web app — upload a leaf image and get instant disease predictions."
       ]
     },
     {
