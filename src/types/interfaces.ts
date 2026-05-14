@@ -19,7 +19,7 @@ export interface IStats {
     occupation: string,
     status: string,
     skills: string[],
-    hobby: string[],
+    hobbies: string[],
     toolsUsed: string[],
     leetcodeLink?: string
 }

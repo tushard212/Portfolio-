@@ -15,7 +15,7 @@ const PlayerStats: React.FC = () => {
         occupation,
         status,
         skills,
-        hobby,
+        hobbies,
         toolsUsed,
         leetcodeLink
     } = useSelector((state: AppState): IStats => {
@@ -61,9 +61,9 @@ const PlayerStats: React.FC = () => {
                 </div>
                 <div className="col-12 col-lg-4">
                     <div className="orange-panel size-25 text-white text-left p-3 player-skills">
-                        <p className="color-purple size-35 mb-0">Hobby</p>
+                        <p className="color-purple size-35 mb-0">Hobbies</p>
                         <ul>
-                            {hobby.map((val) => <li>{val}</li>)}
+                            {hobbies.map((val) => <li>{val}</li>)}
                         </ul>
                     </div>
                 </div>
